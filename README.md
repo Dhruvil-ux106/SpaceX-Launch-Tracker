@@ -48,7 +48,7 @@ https://api.spacexdata.com/v4/launches
 ## 🛠 Technologies Used
 
 * HTML
-* CSS (or Tailwind/Bootstrap)
+* CSS 
 * JavaScript (ES6)
 * Fetch API
 
