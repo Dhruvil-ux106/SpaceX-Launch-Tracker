@@ -9,10 +9,36 @@
 
   <h1>🚀 SpaceX Launch Tracker</h1>
 
+  <!-- Search -->
   <input type="text" id="searchInput" placeholder="Search mission...">
 
+  <!-- Controls -->
+  <div class="controls">
+
+    <select id="filter">
+      <option value="">Filter</option>
+      <option value="upcoming">Upcoming</option>
+      <option value="success">Successful</option>
+      <option value="failed">Failed</option>
+    </select>
+
+    <select id="sort">
+      <option value="">Sort</option>
+      <option value="dateAsc">Date ↑</option>
+      <option value="dateDesc">Date ↓</option>
+      <option value="az">A-Z</option>
+      <option value="za">Z-A</option>
+    </select>
+
+    <button id="viewFavs">⭐ Favorites</button>
+    <button id="themeToggle">🌙</button>
+
+  </div>
+
+  <!-- Loader -->
   <div id="loader">Loading...</div>
 
+  <!-- Data -->
   <div id="launches"></div>
 
   <script src="script.js"></script>

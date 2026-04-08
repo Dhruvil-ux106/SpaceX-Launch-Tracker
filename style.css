@@ -11,6 +11,7 @@ body {
   text-align: center;
 }
 
+/* Title */
 h1 {
   margin: 20px;
 }
@@ -23,10 +24,17 @@ input {
   border: none;
 }
 
-/* Loader */
-#loader {
+/* Controls */
+.controls {
   margin: 20px;
-  font-size: 18px;
+}
+
+select, button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
 }
 
 /* Grid */
@@ -49,11 +57,31 @@ input {
   transform: scale(1.05);
 }
 
-/* Status */
+/* Status colors */
 .success {
   color: lightgreen;
 }
 
 .fail {
   color: red;
+}
+
+/* Favorite button */
+.fav {
+  background: red;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* Loader */
+#loader {
+  margin: 20px;
+  font-size: 18px;
+}
+
+/* Dark mode */
+.dark {
+  background: black;
+  color: white;
 }
